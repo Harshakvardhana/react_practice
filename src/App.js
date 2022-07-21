@@ -11,7 +11,9 @@ export default function App() {
   return (
     <div className="App">
       <input type="text" placeholder="Search" />
-      <FontAwesomeIcon icon="fa-solid fa-circle-question" />
+      <div>
+        <FontAwesomeIcon icon="fa-solid fa-circle-question" />
+      </div>
     </div>
   );
   return <div>FaHelp</div>;
