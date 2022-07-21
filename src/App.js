@@ -18,3 +18,5 @@ export default function App() {
   );
   return <div>FaHelp</div>;
 }
+
+render(<App />, document.getElementById('root'));
