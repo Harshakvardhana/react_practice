@@ -1,11 +1,14 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import { FaHelp } from 'react-icons/fa';
+import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      <input type="text" placeholder="Search" />
+      <FontAwesomeIcon icon="fa-solid fa-circle-question" />
     </div>
   );
+  return <div>FaHelp</div>;
 }
